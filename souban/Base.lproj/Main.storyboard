@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Tabbar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController storyboardIdentifier="SOTabbarController" id="49e-Tb-3d3" customClass="SOTabbarController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Guide View Controller-->
+        <scene sceneID="hWm-Qq-QAr">
+            <objects>
+                <viewController storyboardIdentifier="SOGuideViewController" id="7qC-xO-dtQ" customClass="SOGuideViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fyb-Kn-9KJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="EUi-3k-oGW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ruS-un-QV1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7t-SB-Z3j">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <connections>
+                                    <outlet property="delegate" destination="7qC-xO-dtQ" id="gFT-pI-eN3"/>
+                                </connections>
+                            </scrollView>
+                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="nT8-gc-Uvc">
+                                <rect key="frame" x="264" y="543" width="71" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="0.023529412224888802" green="0.50980395078659058" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EUi-3k-oGW" firstAttribute="top" secondItem="S7t-SB-Z3j" secondAttribute="bottom" id="7Gn-EO-E3X"/>
+                            <constraint firstAttribute="trailing" secondItem="S7t-SB-Z3j" secondAttribute="trailing" id="FcF-4S-7Ga"/>
+                            <constraint firstItem="EUi-3k-oGW" firstAttribute="top" secondItem="nT8-gc-Uvc" secondAttribute="bottom" constant="20" id="IVv-fj-LNZ"/>
+                            <constraint firstItem="S7t-SB-Z3j" firstAttribute="top" secondItem="ruS-un-QV1" secondAttribute="top" id="WwJ-Ms-3ik"/>
+                            <constraint firstItem="S7t-SB-Z3j" firstAttribute="leading" secondItem="ruS-un-QV1" secondAttribute="leading" id="fF3-UZ-Sl6"/>
+                            <constraint firstItem="nT8-gc-Uvc" firstAttribute="centerX" secondItem="ruS-un-QV1" secondAttribute="centerX" id="kUX-cd-P3y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="nT8-gc-Uvc" id="9wx-UM-ngs"/>
+                        <outlet property="scrollView" destination="S7t-SB-Z3j" id="fI9-Zg-1cD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fe-MV-xd8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="670"/>
+        </scene>
+    </scenes>
+</document>

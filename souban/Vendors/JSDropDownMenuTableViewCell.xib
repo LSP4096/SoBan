@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JSDropDownMenuTableViewCell" rowHeight="49" id="Txa-N6-lld" customClass="JSDropDownMenuTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Txa-N6-lld" id="UfM-KH-oUj">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6q-1C-vXi">
+                        <rect key="frame" x="10" y="15" width="300" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.023529411764705882" green="0.50980392156862742" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLi-rK-VSn" customClass="OMLineView">
+                        <rect key="frame" x="0.0" y="48" width="320" height="0.0"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="jki-zs-M32"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_screen_check" translatesAutoresizingMaskIntoConstraints="NO" id="35Y-7L-3km">
+                        <rect key="frame" x="300" y="19" width="12" height="9"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="9" id="aLi-CD-bFD"/>
+                            <constraint firstAttribute="width" constant="12" id="e3U-Eq-riH"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="35Y-7L-3km" secondAttribute="trailing" constant="8" id="LvY-p6-duu"/>
+                    <constraint firstAttribute="trailing" secondItem="WLi-rK-VSn" secondAttribute="trailing" id="Uoe-v6-zjU"/>
+                    <constraint firstItem="X6q-1C-vXi" firstAttribute="leading" secondItem="UfM-KH-oUj" secondAttribute="leading" constant="10" id="XbI-8a-ff6"/>
+                    <constraint firstAttribute="bottom" secondItem="WLi-rK-VSn" secondAttribute="bottom" id="XwT-Ey-cHZ"/>
+                    <constraint firstItem="WLi-rK-VSn" firstAttribute="leading" secondItem="UfM-KH-oUj" secondAttribute="leading" id="d86-as-kwj"/>
+                    <constraint firstAttribute="trailing" secondItem="X6q-1C-vXi" secondAttribute="trailing" constant="10" id="uBR-D3-vFP"/>
+                    <constraint firstItem="35Y-7L-3km" firstAttribute="centerY" secondItem="UfM-KH-oUj" secondAttribute="centerY" id="vJ3-zO-Tjc"/>
+                    <constraint firstItem="X6q-1C-vXi" firstAttribute="centerY" secondItem="UfM-KH-oUj" secondAttribute="centerY" id="x4M-1X-AAR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="checkImageView" destination="35Y-7L-3km" id="rdV-cO-lOA"/>
+                <outlet property="itemTextLabel" destination="X6q-1C-vXi" id="psY-24-a0b"/>
+                <outlet property="lineView" destination="WLi-rK-VSn" id="cOf-xC-kGl"/>
+                <outlet property="lineViewLeftConstraint" destination="d86-as-kwj" id="Sg5-I9-dBh"/>
+            </connections>
+            <point key="canvasLocation" x="573" y="546"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_screen_check" width="12" height="9"/>
+    </resources>
+</document>

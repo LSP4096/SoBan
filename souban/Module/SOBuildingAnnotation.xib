@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SOBuildingAnnotation">
+            <rect key="frame" x="0.0" y="0.0" width="118" height="37"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C29-sR-1A2">
+                    <rect key="frame" x="0.0" y="0.0" width="42" height="37"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_mapTipBlue" translatesAutoresizingMaskIntoConstraints="NO" id="7a0-yb-Vgy">
+                            <rect key="frame" x="0.0" y="0.0" width="42" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="Tk9-GO-aBw"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Tk9-GO-aBw"/>
+                                </mask>
+                            </variation>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="751" text="3套" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lg6-21-DYa">
+                            <rect key="frame" x="8" y="6" width="26" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="0rW-8S-sBe"/>
+                        <constraint firstItem="Lg6-21-DYa" firstAttribute="top" secondItem="C29-sR-1A2" secondAttribute="top" constant="6" id="5PJ-GQ-X6L"/>
+                        <constraint firstItem="Lg6-21-DYa" firstAttribute="leading" secondItem="C29-sR-1A2" secondAttribute="leading" constant="8" id="D1f-FC-F9i"/>
+                        <constraint firstAttribute="bottom" secondItem="7a0-yb-Vgy" secondAttribute="bottom" id="Dpu-ca-jq9"/>
+                        <constraint firstItem="7a0-yb-Vgy" firstAttribute="leading" secondItem="C29-sR-1A2" secondAttribute="leading" id="SL9-Cx-LY4"/>
+                        <constraint firstAttribute="trailing" secondItem="7a0-yb-Vgy" secondAttribute="trailing" id="hSj-43-knl"/>
+                        <constraint firstItem="7a0-yb-Vgy" firstAttribute="top" secondItem="C29-sR-1A2" secondAttribute="top" id="kZl-Zw-EBt"/>
+                        <constraint firstAttribute="trailing" secondItem="Lg6-21-DYa" secondAttribute="trailing" constant="8" id="ukD-4H-3TD"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbs-IC-cgv">
+                    <rect key="frame" x="42" y="0.0" width="76" height="30"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_mapTipWhite" translatesAutoresizingMaskIntoConstraints="NO" id="6ac-hW-foV">
+                            <rect key="frame" x="0.0" y="0.0" width="76" height="30"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="751" text="水景园" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gik-ad-0zQ">
+                            <rect key="frame" x="8" y="6" width="61" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.30980393290519714" green="0.37254902720451355" blue="0.43529412150382996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="6ac-hW-foV" firstAttribute="leading" secondItem="pbs-IC-cgv" secondAttribute="leading" id="1bZ-jj-wzH"/>
+                        <constraint firstAttribute="trailing" secondItem="Gik-ad-0zQ" secondAttribute="trailing" constant="7" id="2ch-2X-HKt"/>
+                        <constraint firstItem="Gik-ad-0zQ" firstAttribute="top" secondItem="pbs-IC-cgv" secondAttribute="top" constant="6" id="3Ix-84-jZ2"/>
+                        <constraint firstItem="6ac-hW-foV" firstAttribute="top" secondItem="pbs-IC-cgv" secondAttribute="top" id="3W9-LJ-04s"/>
+                        <constraint firstAttribute="trailing" secondItem="6ac-hW-foV" secondAttribute="trailing" id="4ji-74-hxc"/>
+                        <constraint firstAttribute="bottom" secondItem="6ac-hW-foV" secondAttribute="bottom" id="GCj-mq-POO"/>
+                        <constraint firstItem="Gik-ad-0zQ" firstAttribute="leading" secondItem="pbs-IC-cgv" secondAttribute="leading" constant="8" id="ffD-rY-Omo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="pbs-IC-cgv" firstAttribute="leading" secondItem="C29-sR-1A2" secondAttribute="trailing" id="2C5-bv-6mS"/>
+                <constraint firstItem="C29-sR-1A2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FnK-9u-BBK"/>
+                <constraint firstItem="pbs-IC-cgv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bGo-Ug-key"/>
+                <constraint firstAttribute="bottom" secondItem="C29-sR-1A2" secondAttribute="bottom" id="oOn-gx-thd"/>
+                <constraint firstAttribute="bottom" secondItem="pbs-IC-cgv" secondAttribute="bottom" constant="7" id="rF5-2U-uxz"/>
+                <constraint firstAttribute="trailing" secondItem="pbs-IC-cgv" secondAttribute="trailing" id="tDz-Lp-HId"/>
+                <constraint firstItem="C29-sR-1A2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yip-EW-ClH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bubbleWidthConstraint" destination="0rW-8S-sBe" id="T1I-Ig-dU2"/>
+                <outlet property="buildingCountLabel" destination="Lg6-21-DYa" id="5Lo-75-ARG"/>
+                <outlet property="buildingNameLabel" destination="Gik-ad-0zQ" id="YKn-tS-qpP"/>
+            </connections>
+            <point key="canvasLocation" x="862" y="472.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_mapTipBlue" width="32" height="31"/>
+        <image name="bg_mapTipWhite" width="58" height="27"/>
+    </resources>
+</document>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SOBuildingDetailSurroundFooter" id="YFG-fW-Mzd" customClass="SOBuildingDetailSurroundFooter">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YFG-fW-Mzd" id="kJ3-6P-Yjb">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsH-L4-F4X">
+                        <rect key="frame" x="134" y="21" width="108" height="29"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="108" id="9dJ-Lj-yPt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="查看周边配套">
+                            <color key="titleColor" red="0.023529411764705882" green="0.50980392156862742" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="surroundButtonTapped:" destination="YFG-fW-Mzd" eventType="touchUpInside" id="vIX-3u-RL4"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="zsH-L4-F4X" firstAttribute="centerY" secondItem="kJ3-6P-Yjb" secondAttribute="centerY" id="IxG-Le-ipa"/>
+                    <constraint firstItem="zsH-L4-F4X" firstAttribute="centerX" secondItem="kJ3-6P-Yjb" secondAttribute="centerX" id="P2G-sl-1Mm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="contentView" destination="kJ3-6P-Yjb" id="kvj-xe-NjD"/>
+                <outlet property="lookSurroundButton" destination="zsH-L4-F4X" id="Osr-v4-Tfo"/>
+            </connections>
+            <point key="canvasLocation" x="461" y="414"/>
+        </tableViewCell>
+    </objects>
+</document>

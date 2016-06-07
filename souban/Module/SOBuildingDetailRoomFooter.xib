@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SOBuildingDetailRoomFooter" id="isl-3i-cEJ" customClass="SOBuildingDetailRoomFooter">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="isl-3i-cEJ" id="iLj-Jo-SbZ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zf0-qc-RBo">
+                        <rect key="frame" x="10" y="24" width="88" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="k1e-Pu-nK5"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G9D-q6-e4N">
+                        <rect key="frame" x="277" y="24" width="88" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="NjL-po-BEA"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tI6-3O-cM0">
+                        <rect key="frame" x="128" y="9" width="119" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看全部53套户型" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Pg-4M-l9N">
+                                <rect key="frame" x="0.0" y="0.0" width="99" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GF7-CM-3y3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.30980393290000002" green="0.37254902719999999" blue="0.43529412150000002" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_indicator_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="huV-cz-zMS">
+                                <rect key="frame" x="109" y="11" width="10" height="7"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Pg-4M-l9N" firstAttribute="leading" secondItem="tI6-3O-cM0" secondAttribute="leading" id="Iax-FT-gmV"/>
+                            <constraint firstAttribute="bottom" secondItem="4Pg-4M-l9N" secondAttribute="bottom" id="M71-xy-S4k"/>
+                            <constraint firstItem="huV-cz-zMS" firstAttribute="centerY" secondItem="tI6-3O-cM0" secondAttribute="centerY" id="Mj8-Ir-ygu"/>
+                            <constraint firstItem="huV-cz-zMS" firstAttribute="leading" secondItem="4Pg-4M-l9N" secondAttribute="trailing" constant="10" id="Mt3-BA-FSE"/>
+                            <constraint firstItem="4Pg-4M-l9N" firstAttribute="top" secondItem="tI6-3O-cM0" secondAttribute="top" id="ddo-93-LaO"/>
+                            <constraint firstAttribute="trailing" secondItem="huV-cz-zMS" secondAttribute="trailing" id="gKU-Lc-lfB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="tI6-3O-cM0" firstAttribute="leading" secondItem="zf0-qc-RBo" secondAttribute="trailing" constant="30" id="2YD-Rf-IEd"/>
+                    <constraint firstItem="G9D-q6-e4N" firstAttribute="leading" secondItem="tI6-3O-cM0" secondAttribute="trailing" constant="30" id="3GB-jX-fWE"/>
+                    <constraint firstItem="tI6-3O-cM0" firstAttribute="centerY" secondItem="zf0-qc-RBo" secondAttribute="centerY" id="7HM-vs-dPY"/>
+                    <constraint firstItem="G9D-q6-e4N" firstAttribute="centerY" secondItem="tI6-3O-cM0" secondAttribute="centerY" id="LuX-cS-33M"/>
+                    <constraint firstItem="tI6-3O-cM0" firstAttribute="centerX" secondItem="iLj-Jo-SbZ" secondAttribute="centerX" id="TJa-RP-fLZ"/>
+                    <constraint firstItem="tI6-3O-cM0" firstAttribute="centerY" secondItem="iLj-Jo-SbZ" secondAttribute="centerY" id="U92-ee-VTo"/>
+                    <constraint firstAttribute="trailing" secondItem="G9D-q6-e4N" secondAttribute="trailing" constant="10" id="hTm-et-bNi"/>
+                    <constraint firstItem="zf0-qc-RBo" firstAttribute="leading" secondItem="iLj-Jo-SbZ" secondAttribute="leading" constant="10" id="tFp-GF-Npq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="contentView" destination="iLj-Jo-SbZ" id="4Oj-PA-PeV"/>
+                <outlet property="indicatorImageView" destination="huV-cz-zMS" id="RcS-mx-EKT"/>
+                <outlet property="roomCountConainterView" destination="tI6-3O-cM0" id="SgR-F2-GCK"/>
+                <outlet property="roomCountLabel" destination="4Pg-4M-l9N" id="5AO-6f-G8a"/>
+            </connections>
+            <point key="canvasLocation" x="636.5" y="381"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_indicator_bottom" width="10" height="7"/>
+    </resources>
+</document>

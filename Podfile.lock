@@ -1,0 +1,185 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.1.0)
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (3.2.1)
+  - AMapSearch (3.1.0)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BPushSDK (1.4.4):
+    - BPushSDK/normal (= 1.4.4)
+  - BPushSDK/normal (1.4.4)
+  - CardIO (5.3.2)
+  - CocoaLumberjack (2.0.0-rc):
+    - CocoaLumberjack/Default (= 2.0.0-rc)
+    - CocoaLumberjack/Extensions (= 2.0.0-rc)
+  - CocoaLumberjack/Core (2.0.0-rc)
+  - CocoaLumberjack/Default (2.0.0-rc):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-rc):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - DZNEmptyDataSet (1.7.3)
+  - Fabric (1.6.7)
+  - FCCurrentLocationGeocoder (1.1.11):
+    - FCIPAddressGeocoder (~> 1.0.0)
+  - FCIPAddressGeocoder (1.0.2)
+  - FDFullscreenPopGesture (1.1)
+  - FDStackView (1.0)
+  - FirVersionCompare (0.0.1):
+    - BlocksKit (~> 2.2.5)
+  - GVUserDefaults (0.9.5)
+  - JSONModel (1.0.2)
+  - Masonry (1.0.0)
+  - MJRefresh (3.1.0)
+  - PonyDebugger (0.4.5):
+    - SocketRocket
+  - PSTAlertController (1.2.0)
+  - RBStoryboardLink (0.1.4)
+  - Reveal-iOS-SDK (1.6.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SocketRocket (0.5.1)
+  - SpaceCommander (1.0.0)
+  - SVProgressHUD (2.0.3)
+  - SVPullToRefresh (0.4.1)
+  - UITableView+FDTemplateLayoutCell (1.5.beta)
+  - UMengAnalytics-NO-IDFA (3.6.7)
+  - WZLBadge (1.2.4)
+  - XXNibBridge (2.2.3)
+  - YYCache (1.0.3)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (from `https://github.com/skywinder/ActionSheetPicker-3.0.git`)
+  - AFNetworking (~> 3.0.4)
+  - AMap3DMap (~> 3.2.1)
+  - AMapSearch (~> 3.1.0)
+  - BPushSDK (~> 1.4.3)
+  - CardIO (~> 5.3.2)
+  - CocoaLumberjack (= 2.0.0-rc)
+  - Crashlytics
+  - DZNEmptyDataSet (~> 1.7.2)
+  - Fabric
+  - FCCurrentLocationGeocoder
+  - FDFullscreenPopGesture (~> 1.1)
+  - FDStackView (~> 1.0-alpha)
+  - FirVersionCompare (from `https://github.com/jokefaker/FirVersionCompare.git`)
+  - GVUserDefaults (~> 0.9.4)
+  - JSONModel (~> 1.0.1)
+  - Masonry
+  - MJRefresh
+  - PonyDebugger (from `https://github.com/square/PonyDebugger.git`)
+  - PSTAlertController (~> 1.2.0)
+  - RBStoryboardLink (~> 0.1.4)
+  - Reveal-iOS-SDK (~> 1.6.1)
+  - SDWebImage (~> 3.7.3)
+  - SpaceCommander (from `https://github.com/Liaojiahao/spacecommander.git`)
+  - SVProgressHUD
+  - SVPullToRefresh (~> 0.4.1)
+  - UITableView+FDTemplateLayoutCell (~> 1.4.beta)
+  - UMengAnalytics-NO-IDFA (~> 3.6.7)
+  - WZLBadge (from `https://github.com/weng1250/WZLBadge.git`)
+  - XXNibBridge (from `https://github.com/sunnyxx/XXNibBridge.git`)
+  - YYCache
+
+EXTERNAL SOURCES:
+  ActionSheetPicker-3.0:
+    :git: https://github.com/skywinder/ActionSheetPicker-3.0.git
+  FirVersionCompare:
+    :git: https://github.com/jokefaker/FirVersionCompare.git
+  PonyDebugger:
+    :git: https://github.com/square/PonyDebugger.git
+  SpaceCommander:
+    :git: https://github.com/Liaojiahao/spacecommander.git
+  WZLBadge:
+    :git: https://github.com/weng1250/WZLBadge.git
+  XXNibBridge:
+    :git: https://github.com/sunnyxx/XXNibBridge.git
+
+CHECKOUT OPTIONS:
+  ActionSheetPicker-3.0:
+    :commit: d8bc585ef5c47884c252491296b7763f0bc72444
+    :git: https://github.com/skywinder/ActionSheetPicker-3.0.git
+  FirVersionCompare:
+    :commit: e7ebb5f3440e577100c931e52efbf943c21bf9fd
+    :git: https://github.com/jokefaker/FirVersionCompare.git
+  PonyDebugger:
+    :commit: 21e6c1f01afcad2632956372b83edc04ce316908
+    :git: https://github.com/square/PonyDebugger.git
+  SpaceCommander:
+    :commit: e00f946cce742eca46ccead0326acbd492a95cdf
+    :git: https://github.com/Liaojiahao/spacecommander.git
+  WZLBadge:
+    :commit: 2c92635eafd326be25df165e95fd6b71743ac310
+    :git: https://github.com/weng1250/WZLBadge.git
+  XXNibBridge:
+    :commit: 1db7549e29762ab4ba0c16abfa4efe47c7a02c81
+    :git: https://github.com/sunnyxx/XXNibBridge.git
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: db66605feb85689279d328206c61f0e4f398df92
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AMap3DMap: 1f179c4fc41a60e42243466eb188e3be946aa163
+  AMapSearch: aa7621ae8aec9cb8df116710b26e3fe3d09dc0ff
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  BPushSDK: 776e4357a201db121ecae2ae5b744788ab7e83ba
+  CardIO: 92c45caef0d986c4a303a7afba0c9b76ff2b1f6e
+  CocoaLumberjack: 04c5b9b7479dd4276a09700fcd6644423ea1751c
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FCCurrentLocationGeocoder: b4aa2f877a2c25eee94b17fd040125edf9c5d888
+  FCIPAddressGeocoder: 2622f052eba06c78a707f8b9d9925a406d96ebbd
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  FirVersionCompare: a4b807e6578739d15f2e3156750c42256fe33ffc
+  GVUserDefaults: bd3efc5beab8f501d17e566eddc7acd6f2425c2a
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  PonyDebugger: 1c60f7c876bdb6a8b6bf0f0269087f8a234fafa7
+  PSTAlertController: 9b802dfbda54fee2683bfd6dda7023a6de895d5b
+  RBStoryboardLink: 0faae84aea6a5e8716c4469984d847d958c3fcb3
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SpaceCommander: 87a04deea22f846402053a600d48d5b06ad79148
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
+  UMengAnalytics-NO-IDFA: 6d02561a00579b2e37718f204eb81347df5d7b8b
+  WZLBadge: 6c63f68fa5943d472fe6b1048929a4e479f6e43d
+  XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+
+PODFILE CHECKSUM: 512a8a8cc442e16a33bb55c88944c804336461bb
+
+COCOAPODS: 1.0.0

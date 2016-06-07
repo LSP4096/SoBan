@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SOBuildingDetailMapHeader" rowHeight="210" id="dfw-yX-h9z" customClass="SOBuildingDetailMapHeader">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dfw-yX-h9z" id="DSj-n6-VwE">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="259"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4SQ-63-CXi">
+                        <rect key="frame" x="0.0" y="10" width="375" height="249"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_location" translatesAutoresizingMaskIntoConstraints="NO" id="bW4-cT-ZjX">
+                                <rect key="frame" x="178" y="113" width="19" height="23"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="Lls-Zc-Tkv"/>
+                                    <constraint firstAttribute="width" constant="19" id="wCo-0i-X2O"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bW4-cT-ZjX" firstAttribute="centerX" secondItem="4SQ-63-CXi" secondAttribute="centerX" id="1oy-VZ-7XX"/>
+                            <constraint firstItem="bW4-cT-ZjX" firstAttribute="centerY" secondItem="4SQ-63-CXi" secondAttribute="centerY" id="c1A-EJ-ZgB"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZN4-j7-wyC">
+                        <rect key="frame" x="0.0" y="209" width="375" height="50"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_map_address" translatesAutoresizingMaskIntoConstraints="NO" id="uZ2-UF-SlO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="江汉路1785号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzR-3q-e5I">
+                                <rect key="frame" x="16" y="17" width="88" height="17"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.30980393290000002" green="0.37254902719999999" blue="0.43529412150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_indicator_left" translatesAutoresizingMaskIntoConstraints="NO" id="eFA-q4-GLf">
+                                <rect key="frame" x="346" y="16" width="9" height="15"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uZ2-UF-SlO" secondAttribute="trailing" id="EzN-ot-LaD"/>
+                            <constraint firstItem="FzR-3q-e5I" firstAttribute="centerY" secondItem="ZN4-j7-wyC" secondAttribute="centerY" id="IkM-k9-9Rg"/>
+                            <constraint firstItem="eFA-q4-GLf" firstAttribute="centerY" secondItem="ZN4-j7-wyC" secondAttribute="centerY" constant="-1.5" id="RKe-CH-5CO"/>
+                            <constraint firstAttribute="bottom" secondItem="uZ2-UF-SlO" secondAttribute="bottom" id="ZI2-VE-Vss"/>
+                            <constraint firstAttribute="trailing" secondItem="eFA-q4-GLf" secondAttribute="trailing" constant="20" id="fhe-Sb-cHB"/>
+                            <constraint firstAttribute="height" constant="50" id="gOf-9z-t4w"/>
+                            <constraint firstItem="FzR-3q-e5I" firstAttribute="leading" secondItem="ZN4-j7-wyC" secondAttribute="leading" constant="16" id="gpa-ph-CX8"/>
+                            <constraint firstItem="uZ2-UF-SlO" firstAttribute="top" secondItem="ZN4-j7-wyC" secondAttribute="top" id="mDn-A2-z0E"/>
+                            <constraint firstItem="uZ2-UF-SlO" firstAttribute="leading" secondItem="ZN4-j7-wyC" secondAttribute="leading" id="sKH-HB-6rG"/>
+                            <constraint firstItem="eFA-q4-GLf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FzR-3q-e5I" secondAttribute="trailing" constant="4" id="spY-Jm-LgJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ZN4-j7-wyC" secondAttribute="trailing" id="CgS-qD-FB3"/>
+                    <constraint firstItem="4SQ-63-CXi" firstAttribute="top" secondItem="DSj-n6-VwE" secondAttribute="top" constant="10" id="HOS-Bb-bZB"/>
+                    <constraint firstAttribute="trailing" secondItem="4SQ-63-CXi" secondAttribute="trailing" id="P7M-WI-lRL"/>
+                    <constraint firstItem="ZN4-j7-wyC" firstAttribute="leading" secondItem="DSj-n6-VwE" secondAttribute="leading" id="PCd-Gx-hHY"/>
+                    <constraint firstItem="4SQ-63-CXi" firstAttribute="leading" secondItem="DSj-n6-VwE" secondAttribute="leading" id="bpI-on-NSB"/>
+                    <constraint firstAttribute="bottom" secondItem="ZN4-j7-wyC" secondAttribute="bottom" id="kfs-oA-3Ch"/>
+                    <constraint firstAttribute="bottom" secondItem="4SQ-63-CXi" secondAttribute="bottom" id="uAh-BQ-HD0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="addressContainerView" destination="ZN4-j7-wyC" id="3UX-ny-Int"/>
+                <outlet property="addressLabel" destination="FzR-3q-e5I" id="ieC-nP-NqX"/>
+                <outlet property="contentView" destination="DSj-n6-VwE" id="CrP-Ss-YaZ"/>
+                <outlet property="mapContainerView" destination="4SQ-63-CXi" id="ROX-GR-y2y"/>
+            </connections>
+            <point key="canvasLocation" x="579.5" y="313"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_map_address" width="183" height="57"/>
+        <image name="ic_indicator_left" width="9" height="15"/>
+        <image name="ic_location" width="19" height="23"/>
+    </resources>
+</document>

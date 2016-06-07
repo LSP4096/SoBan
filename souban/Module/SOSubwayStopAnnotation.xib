@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SOSubwayStopAnnotation">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_subwayStopUnselecte" highlightedImage="ic_subwayStopSelecte" translatesAutoresizingMaskIntoConstraints="NO" id="Gg5-5p-ae8">
+                    <rect key="frame" x="0.0" y="0.0" width="59" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="kew-KK-qzs"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconMapDian" translatesAutoresizingMaskIntoConstraints="NO" id="AO5-yp-z03">
+                    <rect key="frame" x="26" y="47" width="8" height="8"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="8" id="73I-Ti-XoK"/>
+                        <constraint firstAttribute="width" constant="8" id="NtD-qA-6KC"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="八字桥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnW-iQ-SZT">
+                    <rect key="frame" x="0.0" y="5" width="60" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.23921568691730499" green="0.25882354378700256" blue="0.29803922772407532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1222" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVe-Le-TDa">
+                    <rect key="frame" x="0.0" y="18" width="60" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.74509803921568629" green="0.0078431372549019607" blue="0.011764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Gg5-5p-ae8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="12J-uJ-X9H"/>
+                <constraint firstItem="VnW-iQ-SZT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="1LX-Io-Chx"/>
+                <constraint firstAttribute="trailing" secondItem="Gg5-5p-ae8" secondAttribute="trailing" constant="1" id="40V-W6-noJ"/>
+                <constraint firstItem="VnW-iQ-SZT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Ru-M8-d7y"/>
+                <constraint firstAttribute="trailing" secondItem="FVe-Le-TDa" secondAttribute="trailing" id="9ha-jk-6wL"/>
+                <constraint firstItem="FVe-Le-TDa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="GNr-dP-K0X"/>
+                <constraint firstAttribute="trailing" secondItem="VnW-iQ-SZT" secondAttribute="trailing" id="J7W-VY-4Ld"/>
+                <constraint firstItem="FVe-Le-TDa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Pjh-7T-ByS"/>
+                <constraint firstItem="Gg5-5p-ae8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eD1-ZE-0re"/>
+                <constraint firstAttribute="bottom" secondItem="AO5-yp-z03" secondAttribute="bottom" id="gzg-nx-Tu6"/>
+                <constraint firstItem="AO5-yp-z03" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pzb-k1-E7u"/>
+                <constraint firstItem="AO5-yp-z03" firstAttribute="top" secondItem="Gg5-5p-ae8" secondAttribute="bottom" constant="2" id="qSV-yz-wP5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="stopBackgroundImageView" destination="Gg5-5p-ae8" id="0ZF-Wg-XxW"/>
+                <outlet property="stopNameLabel" destination="VnW-iQ-SZT" id="QQX-gz-D74"/>
+                <outlet property="stopNumberLabel" destination="FVe-Le-TDa" id="jEf-dS-U7L"/>
+            </connections>
+            <point key="canvasLocation" x="920" y="595.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_subwayStopSelecte" width="60" height="45"/>
+        <image name="ic_subwayStopUnselecte" width="60" height="45"/>
+        <image name="iconMapDian" width="10" height="10"/>
+    </resources>
+</document>

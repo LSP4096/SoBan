@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SOAreaAnnotation">
+            <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1m-je-gkJ">
+                    <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.023529412224888802" green="0.50980395078659058" blue="1" alpha="0.80000001192092896" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="753套" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzP-BY-NRF">
+                    <rect key="frame" x="0.0" y="27" width="55" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城西" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BjV-yE-UwN">
+                    <rect key="frame" x="0.0" y="11" width="55" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CzP-BY-NRF" secondAttribute="trailing" id="2kq-7w-dlc"/>
+                <constraint firstItem="p1m-je-gkJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5TD-H9-Bx1"/>
+                <constraint firstItem="CzP-BY-NRF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AOO-8R-ryY"/>
+                <constraint firstAttribute="trailing" secondItem="BjV-yE-UwN" secondAttribute="trailing" id="Etu-CX-YBl"/>
+                <constraint firstAttribute="trailing" secondItem="p1m-je-gkJ" secondAttribute="trailing" id="HZO-bE-XKL"/>
+                <constraint firstAttribute="bottom" secondItem="p1m-je-gkJ" secondAttribute="bottom" id="QAg-79-uEK"/>
+                <constraint firstItem="BjV-yE-UwN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z8j-ut-04l"/>
+                <constraint firstItem="CzP-BY-NRF" firstAttribute="top" secondItem="BjV-yE-UwN" secondAttribute="bottom" constant="-1" id="aFW-nX-YOw"/>
+                <constraint firstItem="p1m-je-gkJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bIV-NM-bGl"/>
+                <constraint firstItem="BjV-yE-UwN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="mLF-PA-095"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="areaLabel" destination="BjV-yE-UwN" id="kmj-Sy-Dud"/>
+                <outlet property="buildingCountLabel" destination="CzP-BY-NRF" id="vmy-vh-6Rh"/>
+            </connections>
+            <point key="canvasLocation" x="344.5" y="100.5"/>
+        </view>
+    </objects>
+</document>

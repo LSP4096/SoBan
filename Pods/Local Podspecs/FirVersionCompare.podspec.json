@@ -1,0 +1,30 @@
+{
+  "name": "FirVersionCompare",
+  "version": "0.0.1",
+  "summary": "Version Compare Tool for fir.im.",
+  "homepage": "https://github.com/jokefaker/FirVersionCompare",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "guoyong.zhou": "guoyong.zhou@huaban.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "git": "https://github.com/jokefaker/FirVersionCompare.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "FirVersionCompare",
+    "FirVersionCompare/**/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "BlocksKit": [
+      "~> 2.2.5"
+    ]
+  }
+}
