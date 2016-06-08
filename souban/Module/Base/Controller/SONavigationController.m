@@ -19,5 +19,6 @@
 - (UIStatusBarAnimation)preferredStatusBarUpdateAnimation
 {
     return self.topViewController.preferredStatusBarUpdateAnimation;
+    
 }
 @end
