@@ -10,7 +10,7 @@ pod 'AFNetworking', '~> 3.0.4'
 pod 'JSONModel', '~> 1.0.1'
 pod 'SVProgressHUD'
 pod 'GVUserDefaults', '~> 0.9.4'
-pod 'SDWebImage', '~> 3.7.3'
+pod 'SDWebImage'
 
 #pod 'UMengSocial', '~> 4.2.3'
 #pod 'UMengAnalytics'
@@ -37,6 +37,9 @@ pod 'BPushSDK', '~> 1.4.3'
 pod 'MLPhotoBrowser', '~> 0.5.0':git=>'https://github.com/MakeZL/MLPhotoBrowser.git'
 pod 'SDWebImage/WebP'
 =end
+
+
+
 
 pod 'PSTAlertController', '~> 1.2.0'
 #pod 'UIDeviceHardware', :git=>'https://github.com/fahrulazmi/UIDeviceHardware.git'

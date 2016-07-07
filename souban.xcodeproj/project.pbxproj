@@ -73,7 +73,11 @@
 		47A549411C5622AD00801C2C /* SOInstallmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A549401C5622AD00801C2C /* SOInstallmentViewController.m */; };
 		47A549441C5622C000801C2C /* SOManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A549431C5622C000801C2C /* SOManageViewController.m */; };
 		47CFA3861C3106780023DD38 /* SOSlideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CFA3851C3106780023DD38 /* SOSlideButton.m */; };
-		4C6601571D06AFCA006EC077 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6601561D06AFCA006EC077 /* WebP.framework */; };
+		4C5103C51D2DF7B9001F8581 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5103C41D2DF7B9001F8581 /* WebP.framework */; };
+		4C5103C71D2DFA73001F8581 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5103C61D2DFA73001F8581 /* libstdc++.6.0.9.tbd */; };
+		4C5103C91D2DFA80001F8581 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5103C81D2DFA80001F8581 /* libz.1.1.3.tbd */; };
+		4C5103CB1D2DFABF001F8581 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5103CA1D2DFABF001F8581 /* JavaScriptCore.framework */; };
+		4C647BE31D2DEE6D002574C2 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C647BE21D2DEE6D002574C2 /* libSDWebImage.a */; };
 		4C6601601D06B552006EC077 /* UIImage+MLBrowserPhotoImageForBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66015F1D06B552006EC077 /* UIImage+MLBrowserPhotoImageForBundle.m */; };
 		4C66016A1D06B596006EC077 /* MLPhotoBrowserAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6601651D06B596006EC077 /* MLPhotoBrowserAssets.m */; };
 		4C66016B1D06B596006EC077 /* MLPhotoBrowserDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6601671D06B596006EC077 /* MLPhotoBrowserDatas.m */; };
@@ -86,6 +90,7 @@
 		4C66017E1D06B5AE006EC077 /* MLPhotoBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66017A1D06B5AE006EC077 /* MLPhotoBrowserPhotoView.m */; };
 		4C66018C1D06B7E0006EC077 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6601891D06B7E0006EC077 /* DACircularProgressView.m */; };
 		4C66018D1D06B7E0006EC077 /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66018B1D06B7E0006EC077 /* DALabeledCircularProgressView.m */; };
+		4CA4429D1D2DF6EC00E164E4 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA4429B1D2DF6EC00E164E4 /* UIImage+WebP.m */; };
 		770300F71BE74142007AF7F5 /* SOBuildingDetailRoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 770300F61BE74142007AF7F5 /* SOBuildingDetailRoomCell.m */; };
 		770300F91BE74171007AF7F5 /* SOBuildingDetailRoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770300F81BE74171007AF7F5 /* SOBuildingDetailRoomCell.xib */; };
 		770300FC1BE75009007AF7F5 /* SOBuildingDetailSurroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 770300FB1BE75009007AF7F5 /* SOBuildingDetailSurroundCell.m */; };
@@ -181,7 +186,6 @@
 		7761B27A1BDA2D7000417C92 /* JSONCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761B1F11BDA2D7000417C92 /* JSONCategory.m */; };
 		7761B27B1BDA2D7000417C92 /* NSArray+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761B1F31BDA2D7000417C92 /* NSArray+CC.m */; };
 		7761B27C1BDA2D7000417C92 /* NSBundle+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761B1F51BDA2D7000417C92 /* NSBundle+Nib.m */; };
-		7761B27D1BDA2D7000417C92 /* NSData+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761B1F71BDA2D7000417C92 /* NSData+CC.m */; };
 		7761B27E1BDA2D7000417C92 /* NSDate+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761B1F91BDA2D7000417C92 /* NSDate+CC.m */; };
 		7761B27F1BDA2D7000417C92 /* NSNumber+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761B1FB1BDA2D7000417C92 /* NSNumber+CC.m */; };
 		7761B2801BDA2D7000417C92 /* NSString+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761B1FD1BDA2D7000417C92 /* NSString+CC.m */; };
@@ -434,7 +438,11 @@
 		47A549431C5622C000801C2C /* SOManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOManageViewController.m; sourceTree = "<group>"; };
 		47CFA3841C3106780023DD38 /* SOSlideButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSlideButton.h; sourceTree = "<group>"; };
 		47CFA3851C3106780023DD38 /* SOSlideButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSlideButton.m; sourceTree = "<group>"; };
-		4C6601561D06AFCA006EC077 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = ../../Desktop/WebP.framework; sourceTree = "<group>"; };
+		4C5103C41D2DF7B9001F8581 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		4C5103C61D2DFA73001F8581 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		4C5103C81D2DFA80001F8581 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		4C5103CA1D2DFABF001F8581 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		4C647BE21D2DEE6D002574C2 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../Library/Developer/Xcode/DerivedData/souban-gyqcmssczvchqwfndtmcsfneyoqf/Build/Products/Debug-iphonesimulator/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
 		4C66015E1D06B552006EC077 /* UIImage+MLBrowserPhotoImageForBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLBrowserPhotoImageForBundle.h"; sourceTree = "<group>"; };
 		4C66015F1D06B552006EC077 /* UIImage+MLBrowserPhotoImageForBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLBrowserPhotoImageForBundle.m"; sourceTree = "<group>"; };
 		4C6601641D06B596006EC077 /* MLPhotoBrowserAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPhotoBrowserAssets.h; sourceTree = "<group>"; };
@@ -459,6 +467,8 @@
 		4C6601891D06B7E0006EC077 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		4C66018A1D06B7E0006EC077 /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
 		4C66018B1D06B7E0006EC077 /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		4CA4429A1D2DF6EC00E164E4 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		4CA4429B1D2DF6EC00E164E4 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
 		5D686BF74286AB52C0D5E1A9 /* libPods-souban.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-souban.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4EC2278277C3A4FBD8EE7A /* Pods-souban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-souban.release.xcconfig"; path = "Pods/Target Support Files/Pods-souban/Pods-souban.release.xcconfig"; sourceTree = "<group>"; };
 		770300F51BE74142007AF7F5 /* SOBuildingDetailRoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOBuildingDetailRoomCell.h; sourceTree = "<group>"; };
@@ -869,8 +879,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6601571D06AFCA006EC077 /* WebP.framework in Frameworks */,
+				4C5103CB1D2DFABF001F8581 /* JavaScriptCore.framework in Frameworks */,
+				4C5103C91D2DFA80001F8581 /* libz.1.1.3.tbd in Frameworks */,
+				4C5103C71D2DFA73001F8581 /* libstdc++.6.0.9.tbd in Frameworks */,
+				4C5103C51D2DF7B9001F8581 /* WebP.framework in Frameworks */,
 				770369B61BF49E260047323B /* WebKit.framework in Frameworks */,
+				4C647BE31D2DEE6D002574C2 /* libSDWebImage.a in Frameworks */,
 				1314810DA3CA778C1377E904 /* libPods-souban.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -958,7 +972,10 @@
 		1CFE9D6C5D87E71949309605 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C6601561D06AFCA006EC077 /* WebP.framework */,
+				4C5103CA1D2DFABF001F8581 /* JavaScriptCore.framework */,
+				4C5103C81D2DFA80001F8581 /* libz.1.1.3.tbd */,
+				4C5103C61D2DFA73001F8581 /* libstdc++.6.0.9.tbd */,
+				4C647BE21D2DEE6D002574C2 /* libSDWebImage.a */,
 				770369B51BF49E260047323B /* WebKit.framework */,
 				5D686BF74286AB52C0D5E1A9 /* libPods-souban.a */,
 			);
@@ -996,6 +1013,16 @@
 				4719B8251C57287400E04FAA /* SOManageTableViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4C647BDC1D2DEC47002574C2 /* SDP */ = {
+			isa = PBXGroup;
+			children = (
+				4C5103C41D2DF7B9001F8581 /* WebP.framework */,
+				4CA4429A1D2DF6EC00E164E4 /* UIImage+WebP.h */,
+				4CA4429B1D2DF6EC00E164E4 /* UIImage+WebP.m */,
+			);
+			name = SDP;
 			sourceTree = "<group>";
 		};
 		4C66015C1D06B536006EC077 /* MLPhotoBrowser */ = {
@@ -1451,6 +1478,7 @@
 		7761B1EC1BDA2D7000417C92 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				4C647BDC1D2DEC47002574C2 /* SDP */,
 				4C6601811D06B7AA006EC077 /* DACircularProgress */,
 				4C66015C1D06B536006EC077 /* MLPhotoBrowser */,
 				1814E3D41C29396900364E1C /* LineDashPolyline.h */,
@@ -2204,6 +2232,7 @@
 				1895BB9D1BDF5ED6007AD21D /* SOMyCollectionViewCell.m in Sources */,
 				770301311BE890B5007AF7F5 /* UITableView+RegisterNib.m in Sources */,
 				7761B2921BDA2D7000417C92 /* MLBaseView.m in Sources */,
+				4CA4429D1D2DF6EC00E164E4 /* UIImage+WebP.m in Sources */,
 				7761B4181BDA2DB400417C92 /* OMBaseViewController.m in Sources */,
 				7761B2561BDA2D7000417C92 /* NSString+URL.m in Sources */,
 				77F20D101C3AA60F0034A617 /* SOGiftsTableViewCell.m in Sources */,
@@ -2267,7 +2296,6 @@
 				7761B2851BDA2D7000417C92 /* JFDateTimePicker.m in Sources */,
 				77E02C3A1C0C29980069CD18 /* NSString+Location.m in Sources */,
 				777D38261BDDCA2100322DE7 /* SOBookHouseTableViewController.m in Sources */,
-				7761B27D1BDA2D7000417C92 /* NSData+CC.m in Sources */,
 				7761B2821BDA2D7000417C92 /* JFBaseManagedObject.m in Sources */,
 				18E786801BE31A1F004A89E0 /* OMHTTPClient+Service.m in Sources */,
 				47A419A71C5216DE0043A436 /* SOFinancialViewController.m in Sources */,
@@ -2590,6 +2618,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/souban/Vendors",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = souban/Info.plist;
@@ -2599,7 +2631,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/souban/Vendors/LibBPush",
 				);
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiangren.souban;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2617,6 +2652,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/souban/Vendors",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = souban/Info.plist;
@@ -2626,7 +2665,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/souban/Vendors/LibBPush",
 				);
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiangren.souban;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2732,6 +2774,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/souban/Vendors",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = souban/Info.plist;
@@ -2741,7 +2787,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/souban/Vendors/LibBPush",
 				);
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiangren.souban;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

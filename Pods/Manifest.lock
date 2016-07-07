@@ -100,7 +100,7 @@ DEPENDENCIES:
   - PSTAlertController (~> 1.2.0)
   - RBStoryboardLink (~> 0.1.4)
   - Reveal-iOS-SDK (~> 1.6.1)
-  - SDWebImage (~> 3.7.3)
+  - SDWebImage
   - SpaceCommander (from `https://github.com/Liaojiahao/spacecommander.git`)
   - SVProgressHUD
   - SVPullToRefresh (~> 0.4.1)
@@ -180,6 +180,6 @@ SPEC CHECKSUMS:
   XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
   YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
 
-PODFILE CHECKSUM: 512a8a8cc442e16a33bb55c88944c804336461bb
+PODFILE CHECKSUM: 92e26b3376eaedd983a5f216e1f23c1409d3978b
 
 COCOAPODS: 1.0.0
